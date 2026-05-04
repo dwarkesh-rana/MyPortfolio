@@ -1,0 +1,37 @@
+PORTFOLIO SETUP INSTRUCTIONS
+=============================
+
+1. YOUR PROFILE IMAGE
+   - Save your image as: assets/profile.jpg
+   - Recommended size: 1080x1350px (portrait orientation)
+   - The image you provided in the chat should be saved to the assets folder
+   - File name MUST be exactly: profile.jpg
+
+2. PROJECT IMAGES
+   - Save your project images in the assets folder:
+     - img1-1.jpg and img1-2.jpg (Project 1)
+     - img2-1.jpg and img2-2.jpg (Project 2)
+     - img3-1.jpg and img3-2.jpg (Project 3)
+     - img4-1.jpg and img4-2.jpg (Project 4)
+   - Recommended size: 1200x800px (landscape)
+
+3. FEATURES IMPLEMENTED
+   - Profile image now appears in Page 2 section
+   - Profile image follows cursor animation on hover (when hovering over "Web/App" text)
+   - Professional badge showing your roles under the hero text
+   - Optimized layout for better UX
+   - All original animations and color scheme preserved
+
+4. CUSTOMIZATION OPTIONS
+   - Edit the hero text, project titles, and descriptions in index.html
+   - Update social links in the footer
+   - Change colors in style.css if needed
+   - All JavaScript animations are intact and working
+
+5. TO TEST
+   - Replace the image placeholder path with your actual profile image
+   - Open index.html in a browser
+   - Scroll through to see all sections
+   - Hover over "Web/App" text to see profile image animation
+
+ENJOY YOUR NEW PORTFOLIO!

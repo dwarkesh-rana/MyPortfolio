@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dwarkesh Rana | IT Portfolio</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <!-- locomotive css  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <!-- shery css  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/aayushchouhan24/sheryjs@main/dist/Shery.css" />
+    <!-- remixicon cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- css file  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="loader">
+        <div class="line">
+            <div id="line1-part1">
+                <h5>00</h5>
+                <h6>- 100</h6>
+            </div>
+            <h1>Your</h1>
+        </div>
+        <div class="line">
+            <h1>Portfolio</h1>
+        </div>
+        <div class="line">
+            <h1>is loading right</h1>
+            <h2>Now</h2>
+        </div>
+    </div>
+    <div id="main">
+        <div id="page1" data-scroll data-scroll-speed="-1">
+            <div id="nav">
+                <svg class="brand__svg" width="71" height="27" viewBox="0 0 71 27">
+                    <path
+                        d="M40.7622 24.5917C40.7622 23.6724 41.4511 22.9829 42.3697 22.9829C43.2883 22.9829 43.9773 23.6724 43.9773 24.5917C43.9773 25.511 43.2883 26.2005 42.3697 26.2005C41.566 26.2005 40.7622 25.3961 40.7622 24.5917Z"
+                        fill="currentColor"></path>
+                    <path
+                        d="M65.7937 8.96329C65.7937 8.04398 66.4826 7.35449 67.4012 7.35449C68.3198 7.35449 69.0087 8.04398 69.0087 8.96329C69.0087 9.88261 68.3198 10.5721 67.4012 10.5721C66.4826 10.5721 65.7937 9.88261 65.7937 8.96329Z"
+                        fill="currentColor"></path>
+                    <path
+                        d="M59.019 18.3861C59.019 17.4668 59.708 16.7773 60.6266 16.7773C61.5451 16.7773 62.2341 17.4668 62.2341 18.3861C62.2341 19.3055 61.5451 19.9949 60.6266 19.9949C59.8228 19.9949 59.019 19.3055 59.019 18.3861Z"
+                        fill="currentColor"></path>
+                    <path
+                        d="M41.3365 9.88276C40.5327 8.27396 39.6142 7.8143 39.04 7.58447H46.3887C45.9294 7.8143 45.0108 8.04413 45.0108 8.96344C45.0108 9.19327 45.1257 9.65293 45.3553 10.1126L48.3407 16.6627L46.5035 20.225L41.3365 9.88276Z"
+                        fill="currentColor"></path>
+                    <path
+                        d="M51.8998 9.30819C51.8998 8.04413 50.9812 7.69939 50.2922 7.58447H54.6555C53.8517 7.8143 52.8183 8.27396 51.7849 10.1126C51.8998 9.88276 51.8998 9.65293 51.8998 9.30819Z"
+                        fill="currentColor"></path>
+                    <path
+                        d="M66.7122 17.9266C66.7122 16.2029 65.2195 15.6283 63.0378 14.5941C60.8562 13.5599 59.019 12.7555 59.019 10.8019C59.019 8.73348 60.971 7.12468 64.1861 7.00977C63.1527 7.23959 62.3489 8.15891 62.3489 9.42296C62.3489 10.9168 63.612 11.4914 65.9084 12.5256C68.2049 13.5599 70.2717 14.4792 70.2717 16.6626C70.2717 19.1907 67.4011 20.3398 64.6454 20.4547C65.9084 20.2249 66.7122 19.1907 66.7122 17.9266Z"
+                        fill="currentColor"></path>
+                    <path
+                        d="M21.0129 2.64303C21.0129 1.6088 20.3239 0.919313 19.2905 0.689485L24.4576 0V20.3398C24.4576 20.3398 22.6204 20.4547 20.8981 21.8337V2.64303H21.0129Z"
+                        fill="currentColor"></path>
+                    <path
+                        d="M34.6764 14.0195C34.6764 10.4572 31.691 7.58432 27.9019 7.35449C30.1983 7.69923 30.8873 11.4914 30.8873 14.0195C30.8873 16.5476 30.1983 20.2249 27.9019 20.6845C31.8058 20.4547 34.6764 17.5819 34.6764 14.0195Z"
+                        fill="currentColor"></path>
+                    <path
+                        d="M14.9269 14.0195C14.9269 10.4572 11.9415 7.58432 8.15234 7.35449C10.4488 7.69923 11.1377 11.4914 11.1377 14.0195C11.1377 16.5476 10.4488 20.2249 8.15234 20.6845C11.9415 20.4547 14.9269 17.5819 14.9269 14.0195Z"
+                        fill="currentColor"></path>
+                    <path
+                        d="M0 14.0195C0 10.4572 2.9854 7.58432 6.77456 7.35449C4.4781 7.69923 3.78916 11.4914 3.78916 14.0195C3.78916 16.5476 4.4781 20.2249 6.77456 20.6845C2.9854 20.4547 0 17.5819 0 14.0195Z"
+                        fill="currentColor"></path>
+                </svg>
+                <div id="nav-part2">
+                    <h4>Projects</h4>
+                    <h4>About Me</h4>
+                    <h4>Contact</h4>
+                </div>
+            </div>
+            <div class="hero" id="hero1">
+                <h1>I Build</h1>
+            </div>
+            <div class="hero" id="hero2">
+                <h1>Digital</h1>
+            </div>
+            <div class="hero" id="hero3">
+                <h2>Web/</h2>
+                <h2>App</h2>
+            </div>
+            <div class="hero" id="hero4">
+                <h1>Solutions</h1>
+            </div>
+            <div class="hero-badge">
+                <p>IT Student | Developer | Problem Solver</p>
+            </div>
+            <img id="flag" src="./assets/1.jpeg" alt="Dwarkesh Rana" class="hero-profile">
+        </div>
+        <div id="page2" data-scroll data-scroll-speed="-2.5">
+            <div id="video-container">
+                <img src="./assets/1.jpeg" alt="Dwarkesh Rana" class="profile-image">
+            </div>
+        </div>
+        <div id="page3" data-scroll data-scroll-speed="-2.5">
+            <h1>MY PROJECTS</h1>
+            <div class="underline"></div>
+            <div id="image-div-container">
+                <div class="image-div">
+                    <img src="./assets/img1-1.jpg" alt="">
+                    <img src="./assets/img1-2.jpg" alt="">
+                </div>
+                <div class="image-div">
+                    <img src="./assets/img2-1.jpg" alt="">
+                    <img src="./assets/img2-2.jpg" alt="">
+                </div>
+                <div class="page3-circle1">
+                    <svg class="button__arrow" viewBox="0 0 91 118" fill="none">
+                        <path
+                            d="M15.2307 57.4152L15.9378 56.708L15.2307 56.0009L14.5236 56.708L15.2307 57.4152ZM34.9813 77.1658L34.2742 77.8729L35.9813 79.58L35.9813 77.1658L34.9813 77.1658ZM0.151478 72.4944L-0.555622 71.7873L-1.26273 72.4944L-0.555622 73.2015L0.151478 72.4944ZM45.29 117.633L44.5828 118.34L45.29 119.047L45.9971 118.34L45.29 117.633ZM60.3692 102.554L61.0763 103.261L61.7839 102.553L61.0758 101.846L60.3692 102.554ZM60.3685 102.553L59.6614 101.846L58.9538 102.553L59.6619 103.261L60.3685 102.553ZM90.427 72.4944L91.1341 73.2015L91.8412 72.4944L91.1341 71.7873L90.427 72.4944ZM75.3478 57.4152L76.0549 56.7081L75.3478 56.001L74.6407 56.7081L75.3478 57.4152ZM56.3065 76.4565L55.3065 76.4565L55.3065 78.8707L57.0136 77.1636L56.3065 76.4565ZM56.3065 0.120074L57.3065 0.120074L57.3065 -0.879926L56.3065 -0.879926L56.3065 0.120074ZM34.9813 0.120076L34.9813 -0.879924L33.9813 -0.879924L33.9813 0.120076L34.9813 0.120076ZM14.5236 58.1223L34.2742 77.8729L35.6884 76.4587L15.9378 56.708L14.5236 58.1223ZM0.858585 73.2015L15.9378 58.1223L14.5236 56.708L-0.555622 71.7873L0.858585 73.2015ZM45.9971 116.926L0.858585 71.7873L-0.555622 73.2015L44.5828 118.34L45.9971 116.926ZM59.662 101.846L44.5828 116.926L45.9971 118.34L61.0763 103.261L59.662 101.846ZM59.6619 103.261L59.6625 103.261L61.0758 101.846L61.0751 101.845L59.6619 103.261ZM61.0756 103.26L91.1341 73.2015L89.7199 71.7873L59.6614 101.846L61.0756 103.26ZM91.1341 71.7873L76.0549 56.7081L74.6407 58.1223L89.7199 73.2015L91.1341 71.7873ZM74.6407 56.7081L55.5994 75.7494L57.0136 77.1636L76.0549 58.1223L74.6407 56.7081ZM57.3065 76.4565L57.3065 0.120074L55.3065 0.120074L55.3065 76.4565L57.3065 76.4565ZM56.3065 -0.879926L34.9813 -0.879924L34.9813 1.12008L56.3065 1.12007L56.3065 -0.879926ZM33.9813 0.120076L33.9813 77.1658L35.9813 77.1658L35.9813 0.120076L33.9813 0.120076Z"
+                            fill="currentColor"></path>
+                    </svg>
+                    <div class="circle-in">
+                        <p>Thanks for exploring my projects! Hope you enjoyed them 🚀</p>
+                    </div>
+                </div>
+                <div class="page3-circle2">
+                    <svg class="button__arrow" viewBox="0 0 91 118" fill="none">
+                        <path
+                            d="M15.2307 57.4152L15.9378 56.708L15.2307 56.0009L14.5236 56.708L15.2307 57.4152ZM34.9813 77.1658L34.2742 77.8729L35.9813 79.58L35.9813 77.1658L34.9813 77.1658ZM0.151478 72.4944L-0.555622 71.7873L-1.26273 72.4944L-0.555622 73.2015L0.151478 72.4944ZM45.29 117.633L44.5828 118.34L45.29 119.047L45.9971 118.34L45.29 117.633ZM60.3692 102.554L61.0763 103.261L61.7839 102.553L61.0758 101.846L60.3692 102.554ZM60.3685 102.553L59.6614 101.846L58.9538 102.553L59.6619 103.261L60.3685 102.553ZM90.427 72.4944L91.1341 73.2015L91.8412 72.4944L91.1341 71.7873L90.427 72.4944ZM75.3478 57.4152L76.0549 56.7081L75.3478 56.001L74.6407 56.7081L75.3478 57.4152ZM56.3065 76.4565L55.3065 76.4565L55.3065 78.8707L57.0136 77.1636L56.3065 76.4565ZM56.3065 0.120074L57.3065 0.120074L57.3065 -0.879926L56.3065 -0.879926L56.3065 0.120074ZM34.9813 0.120076L34.9813 -0.879924L33.9813 -0.879924L33.9813 0.120076L34.9813 0.120076ZM14.5236 58.1223L34.2742 77.8729L35.6884 76.4587L15.9378 56.708L14.5236 58.1223ZM0.858585 73.2015L15.9378 58.1223L14.5236 56.708L-0.555622 71.7873L0.858585 73.2015ZM45.9971 116.926L0.858585 71.7873L-0.555622 73.2015L44.5828 118.34L45.9971 116.926ZM59.662 101.846L44.5828 116.926L45.9971 118.34L61.0763 103.261L59.662 101.846ZM59.6619 103.261L59.6625 103.261L61.0758 101.846L61.0751 101.845L59.6619 103.261ZM61.0756 103.26L91.1341 73.2015L89.7199 71.7873L59.6614 101.846L61.0756 103.26ZM91.1341 71.7873L76.0549 56.7081L74.6407 58.1223L89.7199 73.2015L91.1341 71.7873ZM74.6407 56.7081L55.5994 75.7494L57.0136 77.1636L76.0549 58.1223L74.6407 56.7081ZM57.3065 76.4565L57.3065 0.120074L55.3065 0.120074L55.3065 76.4565L57.3065 76.4565ZM56.3065 -0.879926L34.9813 -0.879924L34.9813 1.12008L56.3065 1.12007L56.3065 -0.879926ZM33.9813 0.120076L33.9813 77.1658L35.9813 77.1658L35.9813 0.120076L33.9813 0.120076Z"
+                            fill="currentColor"></path>
+                    </svg>
+                    <div class="circle-in">
+                        <p>Let's connect and collaborate on amazing projects!</p>
+                    </div>
+                </div>
+                <div class="image-div">
+                    <img src="./assets/img3-1.jpg" alt="">
+                    <img src="./assets/img3-2.jpg" alt="">
+                </div>
+                <div class="image-div">
+                    <img src="./assets/img4-1.jpg" alt="">
+                    <img src="./assets/img4-2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="page4" data-scroll data-scroll-speed="2.5">
+            <div id="page4-content">
+                <h1>About Me</h1>
+                <div class="underline"></div>
+                <p>I
+                    am
+                    a
+                    passionate
+                    IT
+                    student
+
+                    focused
+                    on
+                    creating
+                    elegant
+
+                    digital
+                    solutions.
+                    I
+                    love
+                    problem
+                    solving,
+
+                    coding,
+                    and
+                    building
+                    projects
+                    that
+                    make
+
+                    an
+                    impact.
+                    Currently
+                    expanding
+                    my
+                    skills
+
+                    in
+                    web
+                    development
+                    and
+                    software
+                    engineering. </p>
+                <div id="page4-flex">
+                    <div class="about-content">
+                        <p>
+                            I'm an IT student passionate about web development, app design, and solving real-world problems through code.
+                            I have experience with modern technologies and love collaborating on innovative projects.
+                            <br><br>
+                            My journey in tech started with curiosity and has evolved into a passion for creating meaningful digital experiences. I believe in continuous learning and embracing new challenges.
+                            <br><br>
+                            Looking to work together or discuss exciting opportunities? Feel free to reach out to me at
+                            —dwarkesh.rana@email.com.
+                            I'm always open to learning and growing with new challenges.
+
+                        </p>
+                    </div>
+                </div>
+                <div id="page4-blue-div">
+                    <div class="blue-div-elem">
+                        <h4>GPA x8.5</h4>
+                        <p>Consistent Academic Excellence</p>
+                    </div>
+                    <div class="blue-div-elem">
+                        <h4>Projects x12+</h4>
+                        <p>Web, Mobile & Desktop Apps</p>
+                    </div>
+                    <div class="blue-div-elem">
+                        <h4>Skills x20+</h4>
+                        <p>Languages, Frameworks & Tools</p>
+                    </div>
+                    <div class="blue-div-elem">
+                        <h4>Certifications x4</h4>
+                        <p>Web Dev, Cloud & Data Science</p>
+                    </div>
+                    <div class="blue-div-elem">
+                        <h4>Experience x2</h4>
+                        <p>Internships & Freelance Work</p>
+                    </div>
+                </div>
+                <div class="underline"></div>
+
+            </div>
+        </div>
+        <div id="page6" data-scroll data-scroll-speed="2.5">
+            <div id="page6-content">
+                <h1>Study Materials</h1>
+                <div class="underline"></div>
+                <p>Sharing knowledge and resources I've created during my learning journey</p>
+                
+                <div class="study-materials-grid">
+                    <div class="material-card">
+                        <div class="material-icon">📚</div>
+                        <h3>Data Structures & Algorithms</h3>
+                        <p>Comprehensive notes on DSA concepts with Python implementations</p>
+                        <div class="material-tags">
+                            <span>Python</span>
+                            <span>DSA</span>
+                            <span>Algorithms</span>
+                        </div>
+                        <button class="material-btn">Download PDF</button>
+                    </div>
+                    
+                    <div class="material-card">
+                        <div class="material-icon">🌐</div>
+                        <h3>Web Development Guide</h3>
+                        <p>Complete roadmap from HTML/CSS to full-stack development</p>
+                        <div class="material-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <button class="material-btn">View Guide</button>
+                    </div>
+                    
+                    <div class="material-card">
+                        <div class="material-icon">☁️</div>
+                        <h3>Cloud Computing Notes</h3>
+                        <p>AWS, Azure, and GCP fundamentals with practical examples</p>
+                        <div class="material-tags">
+                            <span>AWS</span>
+                            <span>Azure</span>
+                            <span>Cloud</span>
+                        </div>
+                        <button class="material-btn">Download Notes</button>
+                    </div>
+                    
+                    <div class="material-card">
+                        <div class="material-icon">🤖</div>
+                        <h3>Machine Learning Basics</h3>
+                        <p>Introduction to ML concepts with hands-on Python projects</p>
+                        <div class="material-tags">
+                            <span>ML</span>
+                            <span>Python</span>
+                            <span>AI</span>
+                        </div>
+                        <button class="material-btn">View Projects</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page7" data-scroll data-scroll-speed="-2.5">
+            <div id="page7-content">
+                <h1>GitHub Repositories</h1>
+                <div class="underline"></div>
+                <p>Explore my coding projects and contributions</p>
+                
+                <div class="github-grid">
+                    <div class="repo-card">
+                        <div class="repo-header">
+                            <h3>🚀 Portfolio Website</h3>
+                            <div class="repo-stats">
+                                <span>⭐ 45</span>
+                                <span>🍴 12</span>
+                            </div>
+                        </div>
+                        <p>Modern, animated portfolio website built with HTML, CSS, and JavaScript</p>
+                        <div class="repo-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>GSAP</span>
+                        </div>
+                        <div class="repo-links">
+                            <a href="#" class="repo-link">🔗 Live Demo</a>
+                            <a href="#" class="repo-link">📂 Source Code</a>
+                        </div>
+                    </div>
+                    
+                    <div class="repo-card">
+                        <div class="repo-header">
+                            <h3>📱 Task Management App</h3>
+                            <div class="repo-stats">
+                                <span>⭐ 28</span>
+                                <span>🍴 8</span>
+                            </div>
+                        </div>
+                        <p>Full-stack task management application with React and Node.js</p>
+                        <div class="repo-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Express</span>
+                        </div>
+                        <div class="repo-links">
+                            <a href="#" class="repo-link">🔗 Live Demo</a>
+                            <a href="#" class="repo-link">📂 Source Code</a>
+                        </div>
+                    </div>
+                    
+                    <div class="repo-card">
+                        <div class="repo-header">
+                            <h3>🧠 ML Image Classifier</h3>
+                            <div class="repo-stats">
+                                <span>⭐ 67</span>
+                                <span>🍴 23</span>
+                            </div>
+                        </div>
+                        <p>Image classification model using TensorFlow and CNN architecture</p>
+                        <div class="repo-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>OpenCV</span>
+                            <span>NumPy</span>
+                        </div>
+                        <div class="repo-links">
+                            <a href="#" class="repo-link">📊 Demo</a>
+                            <a href="#" class="repo-link">📂 Source Code</a>
+                        </div>
+                    </div>
+                    
+                    <div class="repo-card">
+                        <div class="repo-header">
+                            <h3>☁️ Cloud File Storage</h3>
+                            <div class="repo-stats">
+                                <span>⭐ 34</span>
+                                <span>🍴 15</span>
+                            </div>
+                        </div>
+                        <p>Secure file storage system with AWS S3 integration</p>
+                        <div class="repo-tech">
+                            <span>Python</span>
+                            <span>AWS S3</span>
+                            <span>Flask</span>
+                            <span>DynamoDB</span>
+                        </div>
+                        <div class="repo-links">
+                            <a href="#" class="repo-link">🔗 Live Demo</a>
+                            <a href="#" class="repo-link">📂 Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="github-stats">
+                    <div class="stat-item">
+                        <h2>150+</h2>
+                        <p>Commits this year</p>
+                    </div>
+                    <div class="stat-item">
+                        <h2>25+</h2>
+                        <p>Repositories</p>
+                    </div>
+                    <div class="stat-item">
+                        <h2>500+</h2>
+                        <p>Contributions</p>
+                    </div>
+                    <div class="stat-item">
+                        <h2>8</h2>
+                        <p>Languages</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page8" data-scroll data-scroll-speed="2.5">
+            <div id="page8-content">
+                <h1>Certifications & Achievements</h1>
+                <div class="underline"></div>
+                <p>Professional certifications and academic achievements</p>
+                
+                <div class="certifications-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon">🏆</div>
+                        <h3>AWS Certified Developer</h3>
+                        <p>Associate level certification demonstrating expertise in AWS development</p>
+                        <span class="cert-date">2024</span>
+                    </div>
+                    
+                    <div class="cert-card">
+                        <div class="cert-icon">🎯</div>
+                        <h3>Google Cloud Professional</h3>
+                        <p>Cloud architecture and deployment certification</p>
+                        <span class="cert-date">2024</span>
+                    </div>
+                    
+                    <div class="cert-card">
+                        <div class="cert-icon">📊</div>
+                        <h3>Data Science Specialization</h3>
+                        <p>Coursera certification in data science and machine learning</p>
+                        <span class="cert-date">2023</span>
+                    </div>
+                    
+                    <div class="cert-card">
+                        <div class="cert-icon">💻</div>
+                        <h3>Full Stack Development</h3>
+                        <p>Complete web development certification with MERN stack</p>
+                        <span class="cert-date">2023</span>
+                    </div>
+                    
+                    <div class="cert-card">
+                        <div class="cert-icon">🏅</div>
+                        <h3>Dean's List</h3>
+                        <p>Academic excellence recognition for outstanding GPA</p>
+                        <span class="cert-date">2023-2024</span>
+                    </div>
+                    
+                    <div class="cert-card">
+                        <div class="cert-icon">🚀</div>
+                        <h3>Hackathon Winner</h3>
+                        <p>1st place in National Level Coding Competition</p>
+                        <span class="cert-date">2024</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page9" data-scroll data-scroll-speed="-2.5">
+            <div id="page9-content">
+                <h1>Tech Stack & Tools</h1>
+                <div class="underline"></div>
+                <p>Technologies and tools I work with</p>
+                
+                <div class="tech-stack">
+                    <div class="tech-category">
+                        <h3>Frontend</h3>
+                        <div class="tech-icons">
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                                <span>React</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                                <span>HTML5</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                                <span>CSS3</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-category">
+                        <h3>Backend</h3>
+                        <div class="tech-icons">
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                                <span>Node.js</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                                <span>Python</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express">
+                                <span>Express</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-category">
+                        <h3>Cloud & DevOps</h3>
+                        <div class="tech-icons">
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS">
+                                <span>AWS</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+                                <span>Docker</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                                <span>Git</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux">
+                                <span>Linux</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-category">
+                        <h3>AI & Data</h3>
+                        <div class="tech-icons">
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow">
+                                <span>TensorFlow</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas">
+                                <span>Pandas</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="Jupyter">
+                                <span>Jupyter</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy">
+                                <span>NumPy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page10" data-scroll data-scroll-speed="2.5">
+            <div id="page10-content">
+                <h1>Learning Journey</h1>
+                <div class="underline"></div>
+                <p>My progression in the world of technology</p>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>2022 - Started IT Journey</h3>
+                            <p>Began learning programming with Python. Built first "Hello World" application and discovered passion for coding.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>2023 - Web Development</h3>
+                            <p>Mastered HTML, CSS, JavaScript. Created responsive websites and learned React for modern web applications.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>2023 - Backend Development</h3>
+                            <p>Learned Node.js, Express, and MongoDB. Built full-stack applications and REST APIs.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>2024 - Cloud & DevOps</h3>
+                            <p>Obtained AWS certification, learned Docker, and deployed applications to cloud platforms.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>2024 - AI & Machine Learning</h3>
+                            <p>Started exploring machine learning with Python, TensorFlow, and computer vision projects.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>2025 - Future Goals</h3>
+                            <p>Planning to specialize in AI/ML, contribute to open-source projects, and pursue advanced certifications.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page11" data-scroll data-scroll-speed="-2.5">
+            <div id="page11-content">
+                <h1>Code Stats & Activity</h1>
+                <div class="underline"></div>
+                <p>My coding activity and statistics</p>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">💻</div>
+                        <div class="stat-number">1,247</div>
+                        <div class="stat-label">Hours Coded</div>
+                        <div class="stat-description">This year</div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon">☕</div>
+                        <div class="stat-number">89</div>
+                        <div class="stat-label">Cups of Coffee</div>
+                        <div class="stat-description">Debugging fuel</div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon">🐛</div>
+                        <div class="stat-number">234</div>
+                        <div class="stat-label">Bugs Fixed</div>
+                        <div class="stat-description">This month</div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon">🚀</div>
+                        <div class="stat-number">15</div>
+                        <div class="stat-label">Projects Deployed</div>
+                        <div class="stat-description">This year</div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon">🌟</div>
+                        <div class="stat-number">42</div>
+                        <div class="stat-label">GitHub Stars</div>
+                        <div class="stat-description">Across repositories</div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon">🔥</div>
+                        <div class="stat-number">127</div>
+                        <div class="stat-label">Day Streak</div>
+                        <div class="stat-description">Longest coding streak</div>
+                    </div>
+                </div>
+                
+                <div class="activity-chart">
+                    <h3>Weekly Activity</h3>
+                    <div class="chart-bars">
+                        <div class="bar" style="height: 60%"></div>
+                        <div class="bar" style="height: 80%"></div>
+                        <div class="bar" style="height: 40%"></div>
+                        <div class="bar" style="height: 90%"></div>
+                        <div class="bar" style="height: 70%"></div>
+                        <div class="bar" style="height: 85%"></div>
+                        <div class="bar" style="height: 55%"></div>
+                    </div>
+                    <div class="chart-labels">
+                        <span>Mon</span>
+                        <span>Tue</span>
+                        <span>Wed</span>
+                        <span>Thu</span>
+                        <span>Fri</span>
+                        <span>Sat</span>
+                        <span>Sun</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page12" data-scroll data-scroll-speed="2.5">
+            <div id="page12-content">
+                <h1>Get In Touch</h1>
+                <div class="underline"></div>
+                <p>Let's discuss your next project or collaboration opportunity</p>
+                
+                <div class="contact-container">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </form>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>dwarkesh.rana@email.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 98765 43210</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>India</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">⏰</div>
+                            <div>
+                                <h4>Response Time</h4>
+                                <p>Within 24 hours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page5" data-scroll data-scroll-speed="-2.5">
+            <div class="elem">
+                <h1><span>Python</span> - JavaScript - React -</h1>
+                <h1><span>Python</span> - JavaScript - React -</h1>
+            </div>
+            <div class="elem2">
+                <h1>Web Dev - <span>Problem Solving</span> - Cloud -</h1>
+                <h1>Web Dev - <span>Problem Solving</span> - Cloud -</h1>
+            </div>
+            <div class="elem">
+                <h1>Mobile - Database - <span>API Design</span> -</h1>
+                <h1>Mobile - Database - <span>API Design</span> -</h1>
+            </div>
+            <div class="elem2">
+                <h1><span>UI/UX</span> - Machine Learning - DevOps -</h1>
+                <h1><span>UI/UX</span> - Machine Learning - DevOps -</h1>
+            </div>
+        </div>
+        <div id="footer" data-scroll data-scroll-speed="-2.5">
+            <div id="footer-text">
+                <h1>Let's Build</h1>
+                <h2>Let's Build</h2>
+
+            </div>
+            <div class="underline"></div>
+            <div id="footer-div">
+                <div class="box">
+                    <h6>Socials</h6>
+                    <h5>LinkedIn</h5>
+                    <h5>GitHub</h5>
+                    <h5>Instagram</h5>
+                    <h5>Twitter</h5>
+                    <h5>Portfolio</h5>
+                    <h5>Medium</h5>
+                </div>
+                <div class="box">
+                    <h6>Location</h6>
+                    <h5>India
+                        Currently Studying
+                        IT Student</h5>
+
+                </div>
+                <div class="box">
+                    <h6>Get In Touch</h6>
+                    <h5>dwarkesh.rana@email.com</h5>
+                </div>
+            </div>
+            <div class="underline"></div>
+            <h5>Dwarkesh Rana © 2026</h5>
+        </div>
+    </div>
+
+    <!-- locomotive js  -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+    <!-- gsap cdn  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
+    <!-- scrolltrigger cdn  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Three JS cdn  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+    <!-- controlKit for debunging -->
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+
+    <!-- Shery JS cdn  -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/gh/aayushchouhan24/sheryjs@main/dist/Shery.js"></script>
+
+    <!-- JavaScript file  -->
+    <script src="script.js"></script>
+</body>
+
+</html>
